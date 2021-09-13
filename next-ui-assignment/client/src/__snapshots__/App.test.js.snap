@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Component should render with given state from Redux store 1`] = `ShallowWrapper {}`;
+
+exports[`Reducers should render with given state from Redux store 1`] = `ShallowWrapper {}`;

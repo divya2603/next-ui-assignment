@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App {
+  min-height: 100vh;
+  background-color: #282c34;
+}
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: auto;
+  display: inline-block;
+}
+.results-container {
+  width: 100%;
+  height: 50vh;
+  border: 2px solid;
+  overflow: scroll;
+}
+.list-item {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  cursor: pointer;
+}
+.list-item .item-name{
+  margin: 0px 5px;
+}
+.item-link {
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 20px;
+  font-size: 16px;
+}
+.meta-info {
+  font-size: 8px;
+  text-align: right;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+.Artist {
+  color:aquamarine;
+}
+.Album {
+  color: darkseagreen;
+}
+.Song {
+  color:salmon;
+}
