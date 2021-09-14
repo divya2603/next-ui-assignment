@@ -30,7 +30,8 @@ border: none;
 border-radius: 3px;
 `;
 const Form = styled.form`
-width: 100%;
+width: 50%;
+margin: 0 auto;
 `;
 const Header = styled.header``;
 
